@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hola Mundo 1</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+    <body>
+        <table> <!--style=" width: 500px;-->
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Precio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Hola beats</td>
+                    <td>Gratis</td>
+                </tr>
+                <tr>
+                    <td>Chanchito Feliz</td>
+                    <td>19,90$</td>
+                </tr>
+                <tr>
+                    <td>Chanchito Feliz muy feliz</td>
+                    <td>29,90$</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <td></td>
+                <td>ToTal:49.80$</td>
+            </tfoot>
+        </table>
+        <!--lista desordenada-->
+        <ul>
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+            <li>Elemento 4</li>
+        </ul>
+        <!--lista ordenada-->
+        <ol>
+            <li value="50">Elemento 1</li>
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+            <li>Elemento 4</li>      
+            <li>
+                <ol>
+                    <li style="list-style-type: lower-roman;">sub elemento 1</li>
+                    <li style="list-style-type: lower-roman;">sub elemento 2</li>
+                    <li style="list-style-type: lower-roman;">sub elemento 3</li>
+                </ol>
+            </li> 
+        </ol>
+        <br>
+        <form action="/formulario" method="POST">
+            <label for="nombre:">Nombre:</label>
+            <input value="toño" id="nombre" name="nombre" placeholder="Nombre"/>
+            <br>
+            <label for="apellido:">Apellido:</label>
+            <input value="aguirre" id="apellido" name="apellido" placeholder="Apellido"/>
+            <br>
+            <br>
+            <label for="comentario">Comentario:</label>
+            <br>
+                <textarea cols="50" rows="10" id="comentario"  placeholder="ingrese comentario" name="comentario" >Este un Valor por Defecto</textarea>
+            <br>
+            <button type="button">Tipo boton</button>
+            <button type="reset">Tipo reset</button>
+            <button type="submit">Tipo submit</button>
+        </form>
+
+        <h1>Mi Primer Heading</h1>
+        <h2>Mi Segundo Heading</h2>
+        <h3>Mi Tercero Heading</h3>
+        <h4>Mi Cuarto Heading</h4>
+        <h5>Mi Quinto Heading</h5>
+        <h6>Mi Secto Heading</h6>
+        <p>Chanchito Feliz esta muy Feliz</p>
+        <p>Chanchito Feliz esta muy Feliz</p>
+        <hr>
+        <h2>Chanchito Felipe</h2>
+        <p>Este texto es <span style="color: blueviolet;">mucho mas largo</span><br><br>
+        y es para la etiqueta span</p>
+        <!--esto es un comentario-->
+        <a  target="_blank" href="https://www.bing.com/?FORM=Z9FD1">Ir a Edge</a>
+        <br>
+        <br>
+        <img src="./imagenes de hola mundo/coffee.png" height="400">
+        
+    </body>
+</html>
